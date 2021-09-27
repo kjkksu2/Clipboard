@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #54a0ff;
+}
+
+.clipboard-container {
+  padding: 10px 20px;
+  width: 550px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+}
+
+.clipboard-container .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.clipboard-container .content span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  background: #eee;
+  color: #999;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.clipboard-container .content span:hover {
+  color: black;
+}
+
+.clipboard-container textarea {
+  width: 100%;
+  min-height: 550px;
+  font-size: 1.1em;
+  padding: 10px;
+  outline: none;
+  border: 2px solid #01a3a4;
+  border-radius: 5px;
+  resize: none;
+}
